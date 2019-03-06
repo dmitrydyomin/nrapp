@@ -1,0 +1,25 @@
+{
+  "name": "create-nrapp",
+  "version": "1.0.0",
+  "description": "my node-react app boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitrydyomin/nrapp.git"
+  },
+  "author": "Dmitry Dyomin <dma01x@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitrydyomin/nrapp/issues"
+  },
+  "bin": {
+    "create-nrapp": "./index.sh"
+  },
+  "files": [
+    "index.sh"
+  ],
+  "homepage": "https://github.com/dmitrydyomin/nrapp#readme"
+}
