@@ -1,10 +1,9 @@
 {
   "name": "create-nrapp",
-  "version": "1.0.2",
-  "description": "my node-react app boilerplate",
+  "version": "1.0.11",
+  "description": "A node-react app boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
