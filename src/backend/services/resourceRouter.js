@@ -15,8 +15,8 @@ const resourceRoutes = ({
   create,
   update,
   remove,
-}) => {
-  const router = Router();
+}, existingRouter) => {
+  const router = existingRouter || Router();
 
   router.get('/', asyncHandler(async (req, res) => {
     const { page, order, ...filters } = req.query;
